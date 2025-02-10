@@ -1,0 +1,10 @@
+1. we will create the two buckets with  different names.
+2. we will create the IAM roles  by adding the s3fullacess in it. 
+3. After that we will create the lambda function by using the code language python 3.9.
+4. In the execution role , we will use the IAM role which we have created earlier.
+5. Then we will create the lambda function.
+6. After that we will add the trigger and add s3 source bucket  and event type will be 'all object create event'.
+7. After thhat we will add the code given code. 
+8. hit the deploy button. 
+9. after that we will upload the files in the source loaction. 
+10. The magic will happen , the files which you have uploaded in the source location, that files is also there in the target location.
